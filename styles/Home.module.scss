@@ -10,7 +10,7 @@
       }
       .title {
         color: var(--text-color);
-        font-family: 'Lexend Deca';
+        font-family: var(--font-lexend);
         font-size: 6rem;
       }
       .caret {
@@ -68,9 +68,10 @@
     }
     .text {
       .button {
+        cursor: pointer;
         background-color: var(--background-color);
         color: var(--text-color);
-        font-family: 'Lexend Deca';
+        font-family: var(--font-lexend);
         font-size: 1rem;
 
         border-style: solid;
