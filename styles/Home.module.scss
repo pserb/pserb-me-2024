@@ -101,3 +101,21 @@
   }
   padding: 0 2rem;
 }
+@media only screen and (max-width: 840px) {
+  .container {
+    .main {
+      .titlecontainer {
+        .subtitle {
+          margin-top: -2.4rem;
+          margin-left: 0.3rem;
+          font-size: 1rem;
+        }
+        .title {
+          font-size: 3.8rem;
+        }
+        padding-top: 16rem;
+      }
+      line-height: 3.5rem;
+    }
+  }
+}
