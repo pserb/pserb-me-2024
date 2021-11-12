@@ -18,7 +18,7 @@ export default function Home() {
         </div>
 
         <div className={home.text}>
-          <p>Hello! I'm a junior at Stuyvesant High school in New York City.<br/>
+          <p>Hello! I&apos;m a junior at Stuyvesant High school in New York City.<br/>
           I am passionate about web development and design, computer programming, and 3D modeling and rendering.</p>
           <p></p>
           <Link href="/portfolio"><button className={home.button}>Portfolio</button></Link>
