@@ -12,7 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={pf.main}>
-        <p>hello</p>
+        <div className={pf.titlecontainer}>
+          <h1 className={pf.title}><span className={pf.subtitle}>paul serbanescu</span>Portfolio</h1>
+        </div>
       </main>
 
     </div>
