@@ -25,7 +25,7 @@ export default function Home() {
           <div className={pf.content}>
             <div className={pf.section}>
               <h2 className={pf.sectiontitle}>NetLogo</h2>
-              <p className={pf.sectioncontent}><a className={pf.link} href="https://ccl.northwestern.edu/netlogo/">NetLogo</a> is a multi-agent programmable modeling environment. I've made a couple projects during my time in Stuyvesant's IntoCS course, including an animation that won me first place in a class competition and a sandbox pixel game.</p>
+              <p className={pf.sectioncontent}><a className={pf.link} href="https://ccl.northwestern.edu/netlogo/">NetLogo</a> is a multi-agent programmable modeling environment. I&apos;ve made a couple projects during my time in Stuyvesant&apos;s IntoCS course, including an animation that won me first place in a class competition and a sandbox pixel game.</p>
               <button className={pf.buttonmd}>View Projects</button>
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function Home() {
           <div className={pf.content}>
             <div className={pf.section}>
               <h2 className={pf.sectiontitle}>Python</h2>
-              <p className={pf.sectioncontent}>A collection of a couple small python scripts I've made, including one which prints out the Fibonacci sequence, one that lets you test out the <a className={pf.link} href="https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank">Collatz Conjecture</a>, and one that lets you play rock paper scissors with a computer.</p>
+              <p className={pf.sectioncontent}>A collection of a couple small python scripts I&apos;ve made, including one which prints out the Fibonacci sequence, one that lets you test out the <a className={pf.link} href="https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank">Collatz Conjecture</a>, and one that lets you play rock paper scissors with a computer.</p>
               <button className={pf.buttonlist}>Fibonacci Squence</button>
               <button className={pf.buttonlist}>Collatz Conjecture</button>
               <button className={pf.buttonlist}>Rock Paper Scissors</button>
