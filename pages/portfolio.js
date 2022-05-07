@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import pf from '../styles/Portfolio.module.scss'
 import Link from 'next/link'
+import Block from '../components/Block'
 
 export default function Home() {
   return (
@@ -15,12 +16,19 @@ export default function Home() {
         <div className={pf.titlecontainer}>
           <h1 className={pf.title}><span className={pf.subtitle}>paul serbanescu</span>Portfolio</h1>
         </div>
+
+        <Block title="Testing" buttonList={[1, 2, 3]}>
+        is a free and powerful 3D modeling and rendering program, and it allows for incredible ray-traced renders. Here are a couple of my favorites, using 3D models I found online.is a free and powerful 3D modeling and rendering program, and it allows for incredible ray-traced renders. Here are a couple of my favorites, using 3D models I found online.
+        </Block>
+
+
         <div className={pf.content}>
           <div className={pf.section}>
             <h2 className={pf.sectiontitle}>Blender</h2>
             <p className={pf.sectioncontent}><a className={pf.link} href="https://www.blender.org/" target="_blank" rel="noreferrer">Blender</a> is a free and powerful 3D modeling and rendering program, and it allows for incredible ray-traced renders. Here are a couple of my favorites, using 3D models I found online.</p>
             <button className={pf.buttonsm}>Gallery</button>
           </div>
+        </div>
           {/* <span className={pf.dot}>&bull;</span> */}
           <div className={pf.content}>
             <div className={pf.section}>
@@ -39,7 +47,7 @@ export default function Home() {
               <button className={pf.buttonlist}>Rock Paper Scissors</button>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </main>
 
     </div>
