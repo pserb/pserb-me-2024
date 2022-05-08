@@ -8,14 +8,7 @@ export default function Block({ children, title, smallButton, mediumButton, butt
         } else if (mediumButton != null) {
             return <button className={block.buttonmd}>{mediumButton}</button>
         } else if (buttonList != null) {
-            console.log(buttonList)
-            console.log(buttonList[0])
-            var list = ""
-            buttonList.forEach(element => {
-                list += `<button className={block.buttonlist}>{element}</button>`
-                console.log(list)
-            });
-            return list
+            return <> { buttonList.map((x, i) => <button className={block.buttonlist} key={i}>{x}</button> )} </>
         }
     };
 
