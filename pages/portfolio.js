@@ -22,8 +22,9 @@ export default function Home() {
         is a free and powerful 3D modeling and rendering program, and it allows for incredible ray-traced renders. Here are a couple of my favorites, using 3D models I found online.is a free and powerful 3D modeling and rendering program, and it allows for incredible ray-traced renders. Here are a couple of my favorites, using 3D models I found online.
         </Block> */}
 
-        <Block title="FTC Robotics">
-          ...
+        <Block title="Stuy Schedule App">
+          An app I made for Stuyvesant High School's bell schedule
+          <Link href="/appsupport">App Support</Link>
         </Block>
 
         <Block title="Blender" smallButton="Gallery">
