@@ -1,12 +1,13 @@
 import block from '../styles/Block.module.scss';
+import Link from 'next/link'
 
-export default function Block({ children, title, smallButton, mediumButton, buttonList }) {
+export default function Block({ children, title, smallButton, smallButtonLink, mediumButton, mediumButtonLink, buttonList }) {
     
     function hasButton() {
         if (smallButton != null) {
-            return <button className={block.buttonsm}>{smallButton}</button>
+            return <Link href={smallButtonLink}><button className={block.buttonsm}>{smallButton}</button></Link>
         } else if (mediumButton != null) {
-            return <button className={block.buttonmd}>{mediumButton}</button>
+            return <Link href={mediumButtonLink}><button className={block.buttonmd}>{mediumButton}</button></Link>
         } else if (buttonList != null) {
             return <> { buttonList.map((x, i) => <button className={block.buttonlist} key={i}>{x}</button> )} </>
         }

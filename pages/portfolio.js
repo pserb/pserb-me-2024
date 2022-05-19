@@ -22,16 +22,16 @@ export default function Home() {
         is a free and powerful 3D modeling and rendering program, and it allows for incredible ray-traced renders. Here are a couple of my favorites, using 3D models I found online.is a free and powerful 3D modeling and rendering program, and it allows for incredible ray-traced renders. Here are a couple of my favorites, using 3D models I found online.
         </Block> */}
 
-        <Block title="Stuy Schedule App">
+        <Block title="Stuy Schedule App" mediumButton="App Support" mediumButtonLink="/appsupport">
           An app I made for Stuyvesant High School&apos;s bell schedule
-          <Link href="/appsupport">App Support</Link>
+          {/* <Link href="/appsupport">App Support</Link> */}
         </Block>
 
-        <Block title="Blender" smallButton="Gallery">
+        <Block title="Blender" smallButton="Gallery" smallButtonLink="/portfolio">
           <a className={block.link} href="https://www.blender.org/" target="_blank" rel="noreferrer">Blender</a> is a free and powerful 3D modeling and rendering program, and it allows for incredible ray-traced renders. Here are a couple of my favorites, using 3D models I found online.          
         </Block>
 
-        <Block title="NetLogo" mediumButton="View Projects">
+        <Block title="NetLogo" mediumButton="View Projects" mediumButtonLink="/portfolio">
           <a className={block.link} href="https://ccl.northwestern.edu/netlogo/" target="_blank" rel="noreferrer">NetLogo</a> is a multi-agent programmable modeling environment. I&apos;ve made a couple projects during my time in Stuyvesant&apos;s IntoCS course, including an animation that won me first place in a class competition and a sandbox pixel game.
         </Block>
 
