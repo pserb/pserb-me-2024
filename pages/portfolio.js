@@ -23,7 +23,7 @@ export default function Home() {
         </Block> */}
 
         <Block title="Stuy Schedule App">
-          An app I made for Stuyvesant High School's bell schedule
+          An app I made for Stuyvesant High School&apos;s bell schedule
           <Link href="/appsupport">App Support</Link>
         </Block>
 
