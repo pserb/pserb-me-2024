@@ -1,9 +1,14 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
+/*
+IMPORTANT IF FILLING OUT THE JSON
+scheduleType, days, day, and bell will NEVER BE null.
+*/
+
 export default function handler(req, res) {
   res.status(200).json(
     {
-      "scheduleType": "week",
+      "scheduleType": "TEST",
       "days": [
         {
           "day": "June 6, 2022",
