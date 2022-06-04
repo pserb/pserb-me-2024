@@ -8,7 +8,7 @@ scheduleType, days, day, and bell will NEVER BE null.
 export default function handler(req, res) {
   res.status(200).json(
     {
-      "scheduleType": "TEST",
+      "scheduleType": "week",
       "days": [
         {
           "day": "June 6, 2022",
