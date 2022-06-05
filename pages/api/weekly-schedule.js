@@ -12,21 +12,21 @@ export default function handler(req, res) {
       "days": [
         {
           "day": "June 6, 2022",
-          "bell": "regular",
+          "bell": "regular-schedule",
           "block": "B1",
           "testing": "Science",
           "announcement": null
         },
         {
           "day": "June 7, 2022",
-          "bell": "regular",
+          "bell": "regular-schedule",
           "block": "A1",
           "testing": "WL, ELA, and Health",
           "announcement": null
         },
         {
           "day": "June 8, 2022",
-          "bell": "regular",
+          "bell": "regular-schedule",
           "block": "B2",
           "testing": "Math, Music, and Art",
           "announcement": "Film Screening at 5PM of Down a Dark Stairwell. Q and A panel after the film. Please RSVP to jsuri@stuy.edu if you plan on going."
@@ -40,7 +40,7 @@ export default function handler(req, res) {
         },
         {
           "day": "June 10, 2022",
-          "bell": "regular",
+          "bell": "regular-schedule",
           "block": "A2",
           "testing": "CS, SS, and Tech",
           "announcement": null
