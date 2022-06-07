@@ -14,39 +14,39 @@ export default function handler(req, res) {
       "scheduleType": "week",
       "days": [
         {
-          "day": "June 6, 2022",
+          "day": "June 13, 2022",
           "bell": "regular_schedule",
-          "block": "B1",
-          "testing": "Science",
+          "block": "B",
+          "testing": "Makeup Test Day",
           "announcement": null
         },
         {
-          "day": "June 7, 2022",
-          "bell": "regular_schedule",
-          "block": "A1",
-          "testing": "WL, ELA, and Health",
-          "announcement": null
+          "day": "June 14, 2022",
+          "bell": "special20_homeroom_schedule",
+          "block": "A",
+          "testing": "Makeup Test Day",
+          "announcement": "Special 20 - Minute Homeroom Bell Schedule. End of MP3."
         },
         {
-          "day": "June 8, 2022",
-          "bell": "regular_schedule",
-          "block": "B2",
-          "testing": "Math, Music, and Art",
-          "announcement": "Film Screening at 5PM of Down a Dark Stairwell. Q and A panel after the film. Please RSVP to jsuri@stuy.edu if you plan on going."
-        },
-        {
-          "day": "June 9, 2022",
+          "day": "June 15, 2022",
           "bell": "NO SCHOOL",
           "block": null,
-          "testing": null,
-          "announcement": "Chancellor's Conference Day for Staff Development. No students in attendance."
+          "testing": "Regents Exams",
+          "announcement": "English Language Arts (9:15 AM) and Living Environment (1:15 PM) regents testing today."
         },
         {
-          "day": "June 10, 2022",
-          "bell": "regular_schedule",
-          "block": "A2",
-          "testing": "CS, SS, and Tech",
-          "announcement": null
+          "day": "June 16, 2022",
+          "bell": "NO SCHOOL",
+          "block": null,
+          "testing": "Regents Exams",
+          "announcement": "Algebra I (9:15 AM) and Physical Setting / Chemistry (1:15 PM) regents testing today."
+        },
+        {
+          "day": "June 17, 2022",
+          "bell": "NO SCHOOL",
+          "block": null,
+          "testing": "Regents Exams",
+          "announcement": "Global History and Geography II (9:15 AM) and Physical Setting / Earth Science (1:15 PM) regents testing today."
         }
       ]
     }
