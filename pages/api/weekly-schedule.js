@@ -22,10 +22,10 @@ export default function handler(req, res) {
         },
         {
           "day": "June 14, 2022",
-          "bell": "special20_homeroom_schedule",
+          "bell": "homeroom_schedule",
           "block": "A",
           "testing": "Makeup Test Day",
-          "announcement": "Special 20 - Minute Homeroom Bell Schedule. End of MP3."
+          "announcement": "Special 20 - Minute Homeroom Bell Schedule. End of Marking Period 3. (Note: app may not display correct times)."
         },
         {
           "day": "June 15, 2022",
