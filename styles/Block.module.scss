@@ -1,65 +1,5 @@
 .content {
-    .section {
-        // buttons
-        .buttonsm {
-            cursor: pointer;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            font-family: var(--font-lexend);
-            font-size: 1rem;
-    
-            border-style: solid;
-            border-width: 2px;
-            border-color: var(--button-color);
-            padding-block: 0.7rem;
-            border-radius: 1.5rem;
-            width: 8rem;
-
-            margin-top: 0.6rem;
-          }
-          .buttonsm:hover {
-            background-color: var(--button-color);
-          }
-          .buttonmd {
-            cursor: pointer;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            font-family: var(--font-lexend);
-            font-size: 1rem;
-    
-            border-style: solid;
-            border-width: 2px;
-            border-color: var(--button-color);
-            padding-block: 0.7rem;
-            border-radius: 1.5rem;
-            width: 10.5rem;
-
-            margin-top: 0.6rem;
-          }
-          .buttonmd:hover {
-            background-color: var(--button-color);
-          }
-          .buttonlist {
-            margin-right: 3rem;
-            cursor: pointer;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            font-family: var(--font-lexend);
-            font-size: 1rem;
-    
-            border-style: solid;
-            border-width: 2px;
-            border-color: var(--button-color);
-            padding-block: 0.7rem;
-            border-radius: 1.5rem;
-            width: 13rem;
-
-            margin-top: 0.6rem;
-          }
-          .buttonlist:hover {
-            background-color: var(--button-color);
-          }
-          
+    .section {          
           // text
           .sectiontitle {
               color: var(--text-color);
@@ -71,7 +11,7 @@
             .link {
               transition: all 0.2s ease;
               color: var(--link-color);
-            } :hover {
+            } .link:hover {
               color: var(--button-color);
             }
             color: var(--sub-color);
