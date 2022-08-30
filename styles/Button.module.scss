@@ -1,0 +1,63 @@
+.buttonsm {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-lexend);
+    font-size: 1rem;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--button-color);
+    padding-block: 0.7rem;
+    border-radius: 1.5rem;
+    width: 8rem;
+
+    margin-top: 0.6rem;
+}
+.buttonsm:hover {
+    transition: all 0.2s ease;
+    background-color: var(--button-color);
+}
+.buttonmd {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-lexend);
+    font-size: 1rem;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--button-color);
+    padding-block: 0.7rem;
+    border-radius: 1.5rem;
+    width: 10.5rem;
+
+    margin-top: 0.6rem;
+}
+.buttonmd:hover {
+    transition: all 0.2s ease;
+    background-color: var(--button-color);
+}
+.buttonlg {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-lexend);
+    font-size: 1rem;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--button-color);
+    padding-block: 0.7rem;
+    border-radius: 1.5rem;
+    width: 12.5rem;
+
+    margin-top: 0.6rem;
+}
+.buttonlg:hover {
+    transition: all 0.2s ease;
+    background-color: var(--button-color);
+}

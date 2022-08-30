@@ -1,19 +1,19 @@
 import Head from 'next/head'
 // todo change to support module
-import pf from '../styles/Portfolio.module.scss'
+import pg from '../styles/Page.module.scss'
 import ap from '../styles/AppSupport.module.scss'
 import home from '../styles/Home.module.scss'
 
 export default function support() {
    return (
-        <div className={pf.container}>
+        <div className={pg.container}>
             <Head>
                 <title>App Support | Paul Serbanescu</title>
             </Head>
 
-            <main className={pf.main}>
-                <div className={pf.titlecontainer}>
-                    <h1 className={pf.title}><span className={pf.subtitle}>stuy schedule</span>App Support</h1>
+            <main className={pg.main}>
+                <div className={pg.titlecontainer}>
+                    <h1 className={pg.title}><span className={pg.subtitle}>stuy schedule</span>App Support</h1>
                 </div>
                 <div className={ap.text}>
                     <h1>Stuy Schedule App Support</h1> 
