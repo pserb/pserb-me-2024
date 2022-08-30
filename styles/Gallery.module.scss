@@ -1,0 +1,39 @@
+.lscontainer {
+    img {
+        width: 100%;
+        height: auto;
+
+        padding-inline: 1em;
+        padding-block: 1.5em;
+    }
+    width: 70%;
+    margin: auto;
+}
+.flexcontainer {
+    img {
+        // width: 300px;
+        width: 50%;
+        box-sizing: border-box;
+
+        padding-inline: 1em;
+        padding-block: 1.5em;
+    }
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 70%;
+
+    padding: 0;
+    margin: auto;
+}
+
+@media (max-width: 1000px) {
+    .lscontainer {
+        width: 95%;
+    }
+    .flexcontainer {
+        width: 95%;
+    }
+}
