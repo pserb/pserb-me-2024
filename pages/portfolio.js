@@ -71,7 +71,7 @@ export default function Home() {
         <Block title="Blender" smallButton="Gallery" smallButtonLink="/portfolio">
           <div className={pg.positiontitle}>Hobby</div>
           <br></br>
-          <a className={block.link} href="https://www.blender.org/" target="_blank" rel="noopener noreferrer">Blender</a> is a free and powerful 3D modeling and rendering program. It's a great platform to be creative and artistic. Here are some of my favorite pieces:
+          <a className={block.link} href="https://www.blender.org/" target="_blank" rel="noopener noreferrer">Blender</a> is a free and powerful 3D modeling and rendering program. It is a great platform to be creative and artistic. Here are some of my favorite pieces:
           <br></br>
           <br></br>
           <Button label="Gallery" link="/gallery/" medium="y"></Button>
