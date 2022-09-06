@@ -2,7 +2,7 @@
 
 /*
 IMPORTANT IF FILLING OUT THE JSON
-scheduleType, days, day, and bell will NEVER BE null.
+scheduleType, days, day, bell, and testing will NEVER BE null.
 
 bell name is: scheduletype_schedule
 scheduletype: regular, conference, homeroom
