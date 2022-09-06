@@ -16,7 +16,7 @@ export default function handler(req, res) {
           {
             "day": "September 5, 2022",
             "bell": null,
-            "block": null,
+            "block": "A",
             "testing": "Regents Exams",
             "announcement": "Juneteenth. No Regents Exams."
           },
@@ -128,28 +128,28 @@ export default function handler(req, res) {
                   }
                 ]
               },
-            "block": null,
+            "block": "B",
             "testing": "Regents Exams",
             "announcement": "Geometry (8:15 AM) and World Language (8:15 or 12:15 PM) regents testing today."
           },
           {
             "day": "September 7, 2022",
             "bell": null,
-            "block": null,
+            "block": "C",
             "testing": "Regents Exams",
             "announcement": "Algebra II (8:15 AM) regents testing today."
           },
           {
             "day": "September 8, 2022",
             "bell": null,
-            "block": null,
+            "block": "D",
             "testing": "Regents Exams",
             "announcement": "Physical Setting / Physics (8:15 AM) regents testing today. Senior Graduation!"
           },
           {
             "day": "September 9, 2022",
             "bell": null,
-            "block": null,
+            "block": "E",
             "testing": "Regents Exams",
             "announcement": "Teacher grades due 8 AM."
           }
