@@ -124,7 +124,7 @@ export default function handler(req, res) {
                   {
                     "name": "Period 10",
                     "startTime": "14:54",
-                    "duration": 141
+                    "duration": 41
                   }
                 ]
             },
