@@ -2,10 +2,12 @@
 
 /*
 IMPORTANT IF FILLING OUT THE JSON
-scheduleType, days, day, and bell will NEVER BE null.
+scheduleType, days, day, bell, and testing will NEVER BE null.
 
 bell name is: scheduletype_schedule
 scheduletype: regular, conference, homeroom
+
+see api/master-schedules.js for all bell schedules
 */
 
 export default function handler(req, res) {
@@ -14,39 +16,262 @@ export default function handler(req, res) {
       "scheduleType": "week",
       "days": [
         {
-          "day": "June 20, 2022",
-          "bell": "NO SCHOOL",
+          "day": "September 6, 2022",
+          "bell": null,
           "block": null,
-          "testing": "Regents Exams",
-          "announcement": "Juneteenth. No Regents Exams."
+          "testing": "No Testing",
+          "announcement": "No School"
         },
         {
-          "day": "June 21, 2022",
-          "bell": "NO SCHOOL",
+          "day": "September 7, 2022",
+          "bell": null,
           "block": null,
-          "testing": "Regents Exams",
-          "announcement": "Geometry (8:15 AM) and World Language (8:15 or 12:15 PM) regents testing today."
+          "testing": "No Testing",
+          "announcement": "No School"
         },
         {
-          "day": "June 22, 2022",
-          "bell": "NO SCHOOL",
-          "block": null,
-          "testing": "Regents Exams",
-          "announcement": "Algebra II (8:15 AM) regents testing today."
+          "day": "September 8, 2022",
+          "bell": {
+            "scheduleType": "firstweek",
+            "scheduleName": "First Week Schedule",
+            "schedule": [
+              {
+                "name": "Before Homeroom",
+                "startTime": "7:30",
+                "duration": 60
+              },
+              {
+                "name": "Homeroom",
+                "startTime": "8:30",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 1",
+                "startTime": "9:00",
+                "duration": 5
+              },
+              {
+                "name": "Period 1",
+                "startTime": "9:05",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 2",
+                "startTime": "9:35",
+                "duration": 4
+              },
+              {
+                "name": "Period 2",
+                "startTime": "9:40",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 3",
+                "startTime": "10:10",
+                "duration": 5
+              },
+              {
+                "name": "Period 3",
+                "startTime": "10:15",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 4",
+                "startTime": "10:45",
+                "duration": 5
+              },
+              {
+                "name": "Period 4",
+                "startTime": "10:50",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 5",
+                "startTime": "11:20",
+                "duration": 5
+              },
+              {
+                "name": "Period 5",
+                "startTime": "11:25",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 6",
+                "startTime": "11:55",
+                "duration": 5
+              },
+              {
+                "name": "Period 6",
+                "startTime": "12:00",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 7",
+                "startTime": "12:30",
+                "duration": 5
+              },
+              {
+                "name": "Period 7",
+                "startTime": "12:35",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 8",
+                "startTime": "13:05",
+                "duration": 5
+              },
+              {
+                "name": "Period 8",
+                "startTime": "13:10",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 9",
+                "startTime": "13:40",
+                "duration": 5
+              },
+              {
+                "name": "Period 9",
+                "startTime": "13:45",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 10",
+                "startTime": "14:15",
+                "duration": 5
+              },
+              {
+                "name": "Period 10",
+                "startTime": "14:20",
+                "duration": 30
+              }
+            ]
+          },
+          "block": "A",
+          "testing": "No Testing",
+          "announcement": "First day of school! Special Schedule."
         },
         {
-          "day": "June 23, 2022",
-          "bell": "NO SCHOOL",
-          "block": null,
-          "testing": "Regents Exams",
-          "announcement": "Physical Setting / Physics (8:15 AM) regents testing today. Senior Graduation!"
-        },
-        {
-          "day": "June 24, 2022",
-          "bell": "NO SCHOOL",
-          "block": null,
-          "testing": "Regents Exams",
-          "announcement": "Teacher grades due 8 AM."
+          "day": "September 9, 2022",
+          "bell": {
+            "scheduleType": "firstweek",
+            "scheduleName": "First Week Schedule",
+            "schedule": [
+              {
+                "name": "Before Homeroom",
+                "startTime": "7:30",
+                "duration": 60
+              },
+              {
+                "name": "Homeroom",
+                "startTime": "8:30",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 1",
+                "startTime": "9:00",
+                "duration": 5
+              },
+              {
+                "name": "Period 1",
+                "startTime": "9:05",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 2",
+                "startTime": "9:35",
+                "duration": 4
+              },
+              {
+                "name": "Period 2",
+                "startTime": "9:40",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 3",
+                "startTime": "10:10",
+                "duration": 5
+              },
+              {
+                "name": "Period 3",
+                "startTime": "10:15",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 4",
+                "startTime": "10:45",
+                "duration": 5
+              },
+              {
+                "name": "Period 4",
+                "startTime": "10:50",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 5",
+                "startTime": "11:20",
+                "duration": 5
+              },
+              {
+                "name": "Period 5",
+                "startTime": "11:25",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 6",
+                "startTime": "11:55",
+                "duration": 5
+              },
+              {
+                "name": "Period 6",
+                "startTime": "12:00",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 7",
+                "startTime": "12:30",
+                "duration": 5
+              },
+              {
+                "name": "Period 7",
+                "startTime": "12:35",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 8",
+                "startTime": "13:05",
+                "duration": 5
+              },
+              {
+                "name": "Period 8",
+                "startTime": "13:10",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 9",
+                "startTime": "13:40",
+                "duration": 5
+              },
+              {
+                "name": "Period 9",
+                "startTime": "13:45",
+                "duration": 30
+              },
+              {
+                "name": "Before Period 10",
+                "startTime": "14:15",
+                "duration": 5
+              },
+              {
+                "name": "Period 10",
+                "startTime": "14:20",
+                "duration": 30
+              }
+            ]
+          },
+          "block": "B",
+          "testing": "No Testing",
+          "announcement": "Special Schedule."
         }
       ]
     }
