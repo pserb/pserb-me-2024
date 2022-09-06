@@ -24,7 +24,7 @@ export default function handler(req, res) {
             "day": "September 6, 2022",
             "bell": {
                 "scheduleType": "regular",
-                "scheduleName": "Regular Schedule",
+                "scheduleName": "SPECIAL!! Schedule",
                 "schedule": [
                   {
                     "name": "Before Period 1",
