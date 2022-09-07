@@ -30,7 +30,7 @@ export default function Home() {
         </Block>
 
         <Block title="Stuy Schedule App">
-          <div className={pg.positiontitle}>Creator, Over 500 downloads!</div>
+          <div className={pg.positiontitle}>Creator, Over 700 downloads!</div>
           <br></br>
           An iOS app which helps Stuyvesant students get on track by displaying current school announcements, events, and the bell schedule so they&apos;ll always know when class starts. Features the newest iOS features and widgets.
           <br></br>
