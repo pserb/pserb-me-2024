@@ -20,14 +20,14 @@ export default function handler(req, res) {
           "bell": null,
           "block": null,
           "testing": "No Testing",
-          "announcement": "No School"
+          "announcement": null
         },
         {
           "day": "September 7, 2022",
           "bell": null,
           "block": null,
           "testing": "No Testing",
-          "announcement": "No School"
+          "announcement": "First Day of School Tomorrow. Doors open at 7:45am, Homeroom begins at 8:30am."
         },
         {
           "day": "September 8, 2022",
