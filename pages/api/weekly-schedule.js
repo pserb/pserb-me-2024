@@ -124,7 +124,7 @@ export default function handler(req, res) {
             ]
           },
           "block": "B",
-          "testing": "Science",
+          "testing": "Science Testing",
           "announcement": null
         },
         {
@@ -236,7 +236,7 @@ export default function handler(req, res) {
             ]
           },
           "block": "A1",
-          "testing": "Science",
+          "testing": "Science Testing",
           "announcement": "SLT Meeting: 3:45-5:45PM"
         },
         {
@@ -348,7 +348,7 @@ export default function handler(req, res) {
             ]
           },
           "block": "B1",
-          "testing": "WL, ELA, & Health",
+          "testing": "WL, ELA, & Health Testing",
           "announcement": null
         },
         {
@@ -460,7 +460,7 @@ export default function handler(req, res) {
             ]
           },
           "block": "A2",
-          "testing": "Math, Music, & Art",
+          "testing": "Math, Music, & Art Testing",
           "announcement": null
         },
         {
@@ -572,7 +572,7 @@ export default function handler(req, res) {
             ]
           },
           "block": "B2",
-          "testing": "CS, SS, & Tech",
+          "testing": "CS, SS, & Tech Testing",
           "announcement": null
         }
       ]
