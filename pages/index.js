@@ -18,8 +18,8 @@ export default function Home() {
         </div>
 
         <div className={home.text}>
-          <p>Hello! I&apos;m a rising senior at Stuyvesant High school in New York City.<br/>
-          I am passionate about robotics, computer programming, web development and design, and 3D modeling and rendering.</p>
+          <p>Hello! I&apos;m a senior at Stuyvesant High school in New York City.<br/><br/>
+          I am passionate about robotics, app development, computer programming, web development and design, and 3D modeling and rendering.</p>
           <p></p>
           <Link href="/portfolio"><button className={home.button}>Portfolio</button></Link>
         </div>
