@@ -16,21 +16,7 @@ export default function handler(req, res) {
       "scheduleType": "week",
       "days": [
         {
-          "day": "September 26, 2022",
-          "bell": null,
-          "block": null,
-          "testing": "No Testing",
-          "announcement": "Rosh Hashanah, School Closed."
-        },
-        {
-          "day": "September 27, 2022",
-          "bell": null,
-          "block": null,
-          "testing": "No Testing",
-          "announcement": "Rosh Hashanah, School Closed."
-        },
-        {
-          "day": "September 28, 2022",
+          "day": "October 3, 2022",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
@@ -137,12 +123,141 @@ export default function handler(req, res) {
               }
             ]
           },
-          "block": "A",
-          "testing": "Science Testing",
+          "block": "B1",
+          "testing": "Science",
           "announcement": null
         },
         {
-          "day": "September 29, 2022",
+          "day": "October 4, 2022",
+            "bell": {
+              "scheduleType": "homeroom",
+              "scheduleName": "Homeroom Schedule",
+              "schedule": [
+                {
+                  "name": "Before Period 1",
+                  "startTime": "7:00",
+                  "duration": 60
+                },
+                {
+                  "name": "Period 1",
+                  "startTime": "8:00",
+                  "duration": 40
+                },
+                {
+                  "name": "Before Period 2",
+                  "startTime": "8:40",
+                  "duration": 5
+                },
+                {
+                  "name": "Period 2",
+                  "startTime": "8:45",
+                  "duration": 40
+                },
+                {
+                  "name": "Before Period 3",
+                  "startTime": "9:25",
+                  "duration": 4
+                },
+                {
+                  "name": "Period 3",
+                  "startTime": "9:29",
+                  "duration": 40
+                },
+                {
+                    "name": "Before Homeroom",
+                    "startTime": "10:09",
+                    "duration": 4
+                },
+                {
+                    "name": "Homeroom",
+                    "startTime": "10:13",
+                    "duration": 12
+                },
+                {
+                  "name": "Before Period 4",
+                  "startTime": "10:25",
+                  "duration": 5
+                },
+                {
+                  "name": "Period 4",
+                  "startTime": "10:30",
+                  "duration": 40
+                },
+                {
+                  "name": "Before Period 5",
+                  "startTime": "11:10",
+                  "duration": 4
+                },
+                {
+                  "name": "Period 5",
+                  "startTime": "11:14",
+                  "duration": 40
+                },
+                {
+                  "name": "Before Period 6",
+                  "startTime": "11:54",
+                  "duration": 4
+                },
+                {
+                  "name": "Period 6",
+                  "startTime": "11:58",
+                  "duration": 40
+                },
+                {
+                  "name": "Before Period 7",
+                  "startTime": "12:42",
+                  "duration": 5
+                },
+                {
+                  "name": "Period 7",
+                  "startTime": "12:42",
+                  "duration": 41
+                },
+                {
+                  "name": "Before Period 8",
+                  "startTime": "13:22",
+                  "duration": 4
+                },
+                {
+                  "name": "Period 8",
+                  "startTime": "13:26",
+                  "duration": 40
+                },
+                {
+                  "name": "Before Period 9",
+                  "startTime": "14:06",
+                  "duration": 4
+                },
+                {
+                  "name": "Period 9",
+                  "startTime": "14:10",
+                  "duration": 40
+                },
+                {
+                  "name": "Before Period 10",
+                  "startTime": "14:50",
+                  "duration": 5
+                },
+                {
+                  "name": "Period 10",
+                  "startTime": "14:55",
+                  "duration": 40
+                }
+              ]
+          },
+          "block": "A1",
+          "testing": "WL, ELA, & Health",
+          "announcement": "Distribution of I.D. Card Stickers."
+        },
+        {
+          "day": "October 5, 2022",
+          "bell": null,
+          "block": null,
+          "testing": "No Testing",
+          "announcement": "Yom Kippur - No School."
+        },
+        {
+          "day": "October 6, 2022",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
@@ -250,11 +365,11 @@ export default function handler(req, res) {
             ]
           },
           "block": "B2",
-          "testing": "Math, Music, Art & Tech Testing",
+          "testing": "Math, Music, & Art Testing",
           "announcement": null
         },
         {
-          "day": "September 30, 2022",
+          "day": "October 7, 2022",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
@@ -362,8 +477,15 @@ export default function handler(req, res) {
             ]
           },
           "block": "A2",
-          "testing": "WL, ELA, CS, SS, & Health Testing",
+          "testing": "CS, SS, & Tech Testing",
           "announcement": null
+        },
+        {
+          "day": "October 10, 2022",
+          "bell": null,
+          "block": null,
+          "testing": "No Testing",
+          "announcement": "Italian Heritage/Indigenous Peoples' Day - No School."
         }
       ]
     }
