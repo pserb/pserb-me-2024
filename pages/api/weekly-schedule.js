@@ -124,7 +124,7 @@ export default function handler(req, res) {
             ]
           },
           "block": "B1",
-          "testing": "Science",
+          "testing": "Science Testing",
           "announcement": null
         },
         {
@@ -246,7 +246,7 @@ export default function handler(req, res) {
               ]
           },
           "block": "A1",
-          "testing": "WL, ELA, & Health",
+          "testing": "WL, ELA, & Health Testing",
           "announcement": "Distribution of I.D. Card Stickers."
         },
         {
