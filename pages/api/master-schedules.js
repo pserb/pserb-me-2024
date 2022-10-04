@@ -309,7 +309,7 @@ export default function handler(req, res) {
                   },
                   {
                     "name": "Period 7",
-                    "startTime": "12:42",
+                    "startTime": "12:47",
                     "duration": 41
                   },
                   {
