@@ -462,6 +462,64 @@ export default function handler(req, res) {
                   }
                 ]
             },
+
+            // PSAT 2022
+            "bell": {
+              "scheduleType": "psat",
+              "scheduleName": "PSAT Schedule",
+              "schedule": [
+                {
+                  "name": "Before School Open",
+                  "startTime": "6:30",
+                  "duration": 60
+                },
+                {
+                  "name": "School Open",
+                  "startTime": "7:30",
+                  "duration": 30
+                },
+                {
+                  "name": "Report to Testing Rooms",
+                  "startTime": "8:00",
+                  "duration": 15
+                },
+                {
+                  "name": "Before PSAT Begins",
+                  "startTime": "8:15",
+                  "duration": 15
+                },
+                {
+                  "name": "PSAT",
+                  "startTime": "8:30",
+                  "duration": 210
+                },
+                {
+                  "name": "Before Lunch",
+                  "startTime": "12:00",
+                  "duration": 15
+                },
+                {
+                  "name": "Lunch",
+                  "startTime": "12:15",
+                  "duration": 90
+                },
+                {
+                  "name": "Before Homeroom",
+                  "startTime": "13:45",
+                  "duration": 5
+                },
+                {
+                  "name": "Homeroom",
+                  "startTime": "13:50",
+                  "duration": 60
+                },
+                {
+                  "name": "After School",
+                  "startTime": "14:50",
+                  "duration": 30
+                },
+              ]
+            },
         }
     )
 }
