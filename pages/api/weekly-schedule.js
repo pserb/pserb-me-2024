@@ -471,7 +471,7 @@ export default function handler(req, res) {
           },
           "block": "A2",
           "testing": "Math, Music, & Art Testing",
-          "announcement": "End of Marking Period 1."
+          "announcement": null
         },
         {
           "day": "October 28, 2022",
