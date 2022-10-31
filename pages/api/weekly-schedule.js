@@ -135,7 +135,7 @@ export default function handler(req, res) {
           },
           "block": "A",
           "testing": "Science Testing",
-          "announcement": "Spirit Week: Stuyloween"
+          "announcement": "Spirit Week: Stuyloween 🎃👻"
         },
         {
           "day": "November 1, 2022",
