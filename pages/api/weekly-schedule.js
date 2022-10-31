@@ -16,7 +16,129 @@ export default function handler(req, res) {
       "scheduleType": "week",
       "days": [
         {
-          "day": "October 24, 2022",
+          "day": "October 31, 2022",
+          "bell": {
+            "scheduleType": "extendedhomeroom",
+            "scheduleName": "Extended Homeroom Schedule",
+            "schedule": [
+              {
+                "name": "Before Period 1",
+                "startTime": "7:00",
+                "duration": 60
+              },
+              {
+                "name": "Period 1",
+                "startTime": "8:00",
+                "duration": 40
+              },
+              {
+                "name": "Before Period 2",
+                "startTime": "8:40",
+                "duration": 4
+              },
+              {
+                "name": "Period 2",
+                "startTime": "8:44",
+                "duration": 39
+              },
+              {
+                "name": "Before Period 3",
+                "startTime": "9:23",
+                "duration": 4
+              },
+              {
+                "name": "Period 3",
+                "startTime": "9:27",
+                "duration": 39
+              },
+              {
+                  "name": "Before Homeroom",
+                  "startTime": "10:06",
+                  "duration": 4
+              },
+              {
+                  "name": "Homeroom",
+                  "startTime": "10:10",
+                  "duration": 22
+              },
+              {
+                "name": "Before Period 4",
+                "startTime": "10:32",
+                "duration": 4
+              },
+              {
+                "name": "Period 4",
+                "startTime": "10:36",
+                "duration": 39
+              },
+              {
+                "name": "Before Period 5",
+                "startTime": "11:15",
+                "duration": 4
+              },
+              {
+                "name": "Period 5",
+                "startTime": "11:19",
+                "duration": 39
+              },
+              {
+                "name": "Before Period 6",
+                "startTime": "11:58",
+                "duration": 4
+              },
+              {
+                "name": "Period 6",
+                "startTime": "12:02",
+                "duration": 39
+              },
+              {
+                "name": "Before Period 7",
+                "startTime": "12:41",
+                "duration": 4
+              },
+              {
+                "name": "Period 7",
+                "startTime": "12:45",
+                "duration": 39
+              },
+              {
+                "name": "Before Period 8",
+                "startTime": "13:24",
+                "duration": 4
+              },
+              {
+                "name": "Period 8",
+                "startTime": "13:28",
+                "duration": 39
+              },
+              {
+                "name": "Before Period 9",
+                "startTime": "14:07",
+                "duration": 4
+              },
+              {
+                "name": "Period 9",
+                "startTime": "14:11",
+                "duration": 39
+              },
+              {
+                "name": "Before Period 10",
+                "startTime": "14:50",
+                "duration": 5
+              },
+              {
+                "name": "Period 10",
+                "startTime": "14:55",
+                "duration": 40
+              }
+            ]
+          },
+          "block": "A",
+          "testing": "Science Testing",
+          "announcement": "Spirit Week: Stuyloween"
+        },
+        {
+          "day": "November 1, 2022",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
@@ -123,124 +245,12 @@ export default function handler(req, res) {
               }
             ]
           },
-          "block": "B",
+          "block": "B1",
           "testing": "Science Testing",
-          "announcement": null
+          "announcement": "Spirit Week: Black Tie"
         },
         {
-          "day": "October 25, 2022",
-          "bell": {
-            "scheduleType": "regular",
-            "scheduleName": "Regular Schedule",
-            "schedule": [
-              {
-                "name": "Before Period 1",
-                "startTime": "7:00",
-                "duration": 60
-              },
-              {
-                "name": "Period 1",
-                "startTime": "8:00",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 2",
-                "startTime": "8:41",
-                "duration": 4
-              },
-              {
-                "name": "Period 2",
-                "startTime": "8:45",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 3",
-                "startTime": "9:26",
-                "duration": 5
-              },
-              {
-                "name": "Period 3",
-                "startTime": "9:31",
-                "duration": 44
-              },
-              {
-                "name": "Before Period 4",
-                "startTime": "10:15",
-                "duration": 5
-              },
-              {
-                "name": "Period 4",
-                "startTime": "10:20",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 5",
-                "startTime": "11:01",
-                "duration": 5
-              },
-              {
-                "name": "Period 5",
-                "startTime": "11:06",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 6",
-                "startTime": "11:47",
-                "duration": 5
-              },
-              {
-                "name": "Period 6",
-                "startTime": "11:52",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 7",
-                "startTime": "12:33",
-                "duration": 5
-              },
-              {
-                "name": "Period 7",
-                "startTime": "12:38",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 8",
-                "startTime": "13:19",
-                "duration": 5
-              },
-              {
-                "name": "Period 8",
-                "startTime": "13:24",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 9",
-                "startTime": "14:05",
-                "duration": 4
-              },
-              {
-                "name": "Period 9",
-                "startTime": "14:09",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 10",
-                "startTime": "14:50",
-                "duration": 4
-              },
-              {
-                "name": "Period 10",
-                "startTime": "14:54",
-                "duration": 41
-              }
-            ]
-          },
-          "block": "A1",
-          "testing": "Science Testing",
-          "announcement": null
-        },
-        {
-          "day": "October 26, 2022",
+          "day": "November 2, 2022",
           "bell": {
             "scheduleType": "conference",
             "scheduleName": "Conference Schedule",
@@ -357,124 +367,12 @@ export default function handler(req, res) {
               }
             ]
           },
-          "block": "B1",
+          "block": "A1",
           "testing": "WL, ELA, & Health Testing",
-          "announcement": null
+          "announcement": "Spirit Week: Cultural"
         },
         {
-          "day": "October 27, 2022",
-          "bell": {
-            "scheduleType": "regular",
-            "scheduleName": "Regular Schedule",
-            "schedule": [
-              {
-                "name": "Before Period 1",
-                "startTime": "7:00",
-                "duration": 60
-              },
-              {
-                "name": "Period 1",
-                "startTime": "8:00",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 2",
-                "startTime": "8:41",
-                "duration": 4
-              },
-              {
-                "name": "Period 2",
-                "startTime": "8:45",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 3",
-                "startTime": "9:26",
-                "duration": 5
-              },
-              {
-                "name": "Period 3",
-                "startTime": "9:31",
-                "duration": 44
-              },
-              {
-                "name": "Before Period 4",
-                "startTime": "10:15",
-                "duration": 5
-              },
-              {
-                "name": "Period 4",
-                "startTime": "10:20",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 5",
-                "startTime": "11:01",
-                "duration": 5
-              },
-              {
-                "name": "Period 5",
-                "startTime": "11:06",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 6",
-                "startTime": "11:47",
-                "duration": 5
-              },
-              {
-                "name": "Period 6",
-                "startTime": "11:52",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 7",
-                "startTime": "12:33",
-                "duration": 5
-              },
-              {
-                "name": "Period 7",
-                "startTime": "12:38",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 8",
-                "startTime": "13:19",
-                "duration": 5
-              },
-              {
-                "name": "Period 8",
-                "startTime": "13:24",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 9",
-                "startTime": "14:05",
-                "duration": 4
-              },
-              {
-                "name": "Period 9",
-                "startTime": "14:09",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 10",
-                "startTime": "14:50",
-                "duration": 4
-              },
-              {
-                "name": "Period 10",
-                "startTime": "14:54",
-                "duration": 41
-              }
-            ]
-          },
-          "block": "A2",
-          "testing": "Math, Music, & Art Testing",
-          "announcement": null
-        },
-        {
-          "day": "October 28, 2022",
+          "day": "November 3, 2022",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
@@ -582,8 +480,120 @@ export default function handler(req, res) {
             ]
           },
           "block": "B2",
+          "testing": "Math, Music, & Art Testing",
+          "announcement": "Spirit Week: Jersey/Sports"
+        },
+        {
+          "day": "November 4, 2022",
+          "bell": {
+            "scheduleType": "regular",
+            "scheduleName": "Regular Schedule",
+            "schedule": [
+              {
+                "name": "Before Period 1",
+                "startTime": "7:00",
+                "duration": 60
+              },
+              {
+                "name": "Period 1",
+                "startTime": "8:00",
+                "duration": 41
+              },
+              {
+                "name": "Before Period 2",
+                "startTime": "8:41",
+                "duration": 4
+              },
+              {
+                "name": "Period 2",
+                "startTime": "8:45",
+                "duration": 41
+              },
+              {
+                "name": "Before Period 3",
+                "startTime": "9:26",
+                "duration": 5
+              },
+              {
+                "name": "Period 3",
+                "startTime": "9:31",
+                "duration": 44
+              },
+              {
+                "name": "Before Period 4",
+                "startTime": "10:15",
+                "duration": 5
+              },
+              {
+                "name": "Period 4",
+                "startTime": "10:20",
+                "duration": 41
+              },
+              {
+                "name": "Before Period 5",
+                "startTime": "11:01",
+                "duration": 5
+              },
+              {
+                "name": "Period 5",
+                "startTime": "11:06",
+                "duration": 41
+              },
+              {
+                "name": "Before Period 6",
+                "startTime": "11:47",
+                "duration": 5
+              },
+              {
+                "name": "Period 6",
+                "startTime": "11:52",
+                "duration": 41
+              },
+              {
+                "name": "Before Period 7",
+                "startTime": "12:33",
+                "duration": 5
+              },
+              {
+                "name": "Period 7",
+                "startTime": "12:38",
+                "duration": 41
+              },
+              {
+                "name": "Before Period 8",
+                "startTime": "13:19",
+                "duration": 5
+              },
+              {
+                "name": "Period 8",
+                "startTime": "13:24",
+                "duration": 41
+              },
+              {
+                "name": "Before Period 9",
+                "startTime": "14:05",
+                "duration": 4
+              },
+              {
+                "name": "Period 9",
+                "startTime": "14:09",
+                "duration": 41
+              },
+              {
+                "name": "Before Period 10",
+                "startTime": "14:50",
+                "duration": 4
+              },
+              {
+                "name": "Period 10",
+                "startTime": "14:54",
+                "duration": 41
+              }
+            ]
+          },
+          "block": "A2",
           "testing": "CS, SS, & Technology Testing",
-          "announcement": null
+          "announcement": "Spirit Week: Twin"
         }
       ]
     }
