@@ -7,6 +7,11 @@ export default function handler(req, res) {
                 "scheduleName": "Regular Schedule",
                 "schedule": [
                   {
+                    "name": "Before School",
+                    "startTime": "0:00",
+                    "duration": 420
+                  },
+                  {
                     "name": "Before Period 1",
                     "startTime": "7:00",
                     "duration": 60
@@ -105,6 +110,11 @@ export default function handler(req, res) {
                     "name": "Period 10",
                     "startTime": "14:54",
                     "duration": 41
+                  },
+                  {
+                    "name": "After School",
+                    "startTime": "15:35",
+                    "duration": 504
                   }
                 ]
             },
