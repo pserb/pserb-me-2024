@@ -18,6 +18,7 @@ export default function Home() {
       <main className={pg.main}>
         <Title title="Portfolio" subtitle="paul serbanescu"></Title>
 
+        <h1 className={pg.ghlink}><a target="_blank" rel="noopener noreferrer" href="https://github.com/pserb">View me on GitHub</a></h1>
         <Block title="FTC Robotics">
           <div className={pg.positiontitle}>Vice President, Head of Software Engineering: Stuy Fission 310</div>
           <br></br>
