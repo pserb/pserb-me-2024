@@ -508,7 +508,7 @@ export default function handler(req, res) {
           "bell": null,
           "block": null,
           "testing": "No Testing",
-          "announcement": "Veterans Day. No School"
+          "announcement": null
         }
       ]
     }
