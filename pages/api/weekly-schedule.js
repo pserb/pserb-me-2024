@@ -133,7 +133,7 @@ export default function handler(req, res) {
               }
             ]
           },
-          "block": "A",
+          "block": "A1",
           "testing": "Science Testing",
           "announcement": null
         },
