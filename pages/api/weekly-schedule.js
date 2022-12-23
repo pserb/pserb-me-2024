@@ -621,7 +621,7 @@ export default function handler(req, res) {
               }
             ]
           },
-          "block": "A2",
+          "block": "B2",
           "testing": "CS, SS, & Tech Testing",
           "announcement": null
         }
