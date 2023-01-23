@@ -16,7 +16,7 @@ export default function handler(req, res) {
       "scheduleType": "week",
       "days": [
         {
-          "day": "January 17, 2023",
+          "day": "January 23, 2023",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
@@ -133,8 +133,8 @@ export default function handler(req, res) {
               }
             ]
           },
-          "block": "B1",
-          "testing": "Science Testing",
+          "block": "B",
+          "testing": "CS, SS, & Tech Testing",
           "announcement": null
         },
         {
