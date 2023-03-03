@@ -25,18 +25,20 @@ export default function Home() {
           Organized code repository and implemented modern techniques to enable more complex robot mechanisms. Led mentor-student relations, sponsors, and community outreach.
           <br></br>
           <br></br>
-          <Button label="Robot Code" link="https://github.com/Fission310/freight-frenzy" medium="y"></Button>
+          <Button label="Robot Code" link="https://github.com/Fission310/power-play" medium="y"></Button>
           &nbsp;
           <Button label="FissionLib" link="https://github.com/Fission310/FissionLib" medium="y"></Button>
         </Block>
 
         <Block title="Stuy Schedule App">
-          <div className={pg.positiontitle}>Creator, Over 1,700 downloads!</div>
+          <div className={pg.positiontitle}>Creator, Over 2,300 downloads!</div>
           <br></br>
           An iOS app which helps Stuyvesant students get on track by displaying current school announcements, events, and the bell schedule so they&apos;ll always know when class starts. Features the newest iOS features and widgets.
           <br></br>
           <br></br>
           <Button label="App Store" link="https://apps.apple.com/us/app/stuy-schedule/id1625021474?platform=iphone" medium="y"></Button>
+          &nbsp;
+          <Button label="GitHub" link="https://github.com/pserb/stuy-schedule" medium="y"></Button>
           &nbsp;
           <Button label="App Support" link="/appsupport" medium="y"></Button>
         </Block>
