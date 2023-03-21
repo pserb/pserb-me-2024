@@ -138,7 +138,7 @@ export default function handler(req, res) {
           "announcement": null
         },
         {
-          "day": "March 14, 2023",
+          "day": "March 21, 2023",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
@@ -255,12 +255,12 @@ export default function handler(req, res) {
               }
             ]
           },
-          "block": "B1",
-          "testing": "Science Testing",
+          "block": "A1",
+          "testing": "WL, ELA, Health Testing",
           "announcement": null
         },
         {
-          "day": "March 15, 2023",
+          "day": "March 22, 2023",
           "bell": {
             "scheduleType": "conference",
             "scheduleName": "Conference Schedule",
@@ -382,7 +382,7 @@ export default function handler(req, res) {
           "announcement": null
         },
         {
-          "day": "March 16, 2023",
+          "day": "March 23, 2023",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
@@ -504,7 +504,7 @@ export default function handler(req, res) {
           "announcement": null
         },
         {
-          "day": "March 17, 2023",
+          "day": "March 24, 2023",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
