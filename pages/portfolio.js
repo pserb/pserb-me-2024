@@ -31,7 +31,7 @@ export default function Home() {
         </Block>
 
         <Block title="Stuy Schedule App">
-          <div className={pg.positiontitle}>Creator, Over 2,300 downloads!</div>
+          <div className={pg.positiontitle}>Creator, Over 2,400 downloads!</div>
           <br></br>
           An iOS app which helps Stuyvesant students get on track by displaying current school announcements, events, and the bell schedule so they&apos;ll always know when class starts. Features the newest iOS features and widgets.
           <br></br>
@@ -42,6 +42,8 @@ export default function Home() {
           &nbsp;
           <Button label="App Support" link="/appsupport" medium="y"></Button>
         </Block>
+
+        {/* <img width="300" src="/img/stats.png"></img> */}
 
         <Block title="CS Dojo">
           <div className={pg.positiontitle}>Senpai (Tutor)</div>
