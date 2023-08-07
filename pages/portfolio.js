@@ -28,6 +28,45 @@ export default function Home() {
           <Button label="Robot Code" link="https://github.com/Fission310/power-play" medium="y"></Button>
           &nbsp;
           <Button label="FissionLib" link="https://github.com/Fission310/FissionLib" medium="y"></Button>
+
+          <br></br>
+          <br></br>
+          
+          {/* something to wrap this picture in a box like pple */}
+          <div className={pg.imgcontainer}>
+            <div className={pg.item}>
+              <div className={pg.imgwrapper}>
+                <img src="/img/robot.png"></img>
+              </div>
+            </div>
+            <div className={pg.imgdivider}></div>
+            <div className={pg.item}>
+              <div className={pg.textwrapper}>
+                <h2 className={block.sectiontitle}>Power Play Season</h2>
+                <br></br>
+                <div className={pg.positiontitle}>2022-2023 FTC robotics</div>
+                <p><span className={pg.bold}>World class.</span> Our best robot yet, designed with simplicity and reliability in mind.<span className={pg.bold}> Maximum scoring </span>autonomous program with live error correcting pathfinding. Robust manual controls with <span className={pg.bold}>automation</span>, making it our easiest robot ever to drive. Running on our custom <span className={pg.bold}>purpose built</span> Java code library, open and free for any team to use.</p>
+                {/* vertical thingy like pple here */}
+                <div className={pg.statcontainer}>
+                  <span className={pg.statword}>Ranked</span>
+                  <span className={pg.statnumber}>34</span>
+                  <span className={pg.statword}>Worldwide</span>
+                </div>
+                <div className={pg.statcontainer}>
+                  <span className={pg.statword}>Over</span>
+                  <span className={pg.statnumbersm}>11000</span>
+                  <span className={pg.statword}>Lines of Code</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br></br>
+          <br></br>
+
+          <h1 className={pg.quote}>Form follows function.<br></br>Optimized for our needs.</h1>
+          <br></br>
+          <a href="https://github.com/Fission310/FissionLib" target="_blank" rel="noopener noreferrer"><img className={block.fullwidth} src="/img/macbook.png"></img></a>
         </Block>
 
         <Block title="Stuy Schedule App">

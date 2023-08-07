@@ -1,4 +1,14 @@
 .content {
+    .fullwidth {
+      width: 130%;
+      margin-left: -15%;
+      display: block;
+    }
+    .halfwidth {
+      width: 35%;
+      margin: auto;
+      display: block;
+    }
     .section {          
           // text
           .sectiontitle {
