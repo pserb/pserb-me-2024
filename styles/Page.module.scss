@@ -83,7 +83,7 @@
         flex-direction: column;
         align-items: center;
       }
-      .imgcontainer {
+      .statblock {
         .imgdivider {
           width: 5%;
           background-color: var(--background-color);
@@ -134,7 +134,7 @@
           padding-top: 0.6em;
           padding-bottom: 0.4em;
         }
-        .imgcontainer {
+        .statblock {
           .imgdivider {
             height: 2em;
           }
@@ -144,5 +144,12 @@
           flex-direction: column-reverse;
         }
       }
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .statblock {
+      width: 120%;
+      margin-left: -10%;
     }
   }

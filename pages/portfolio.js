@@ -33,7 +33,7 @@ export default function Home() {
           <br></br>
           
           {/* something to wrap this picture in a box like pple */}
-          <div className={pg.imgcontainer}>
+          <div className={pg.statblock}>
             <div className={pg.item}>
               <div className={pg.imgwrapper}>
                 <img src="/img/robot.png"></img>
