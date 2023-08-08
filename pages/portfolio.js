@@ -20,7 +20,7 @@ export default function Home() {
 
         <h1 className={pg.ghlink}><a target="_blank" rel="noopener noreferrer" href="https://github.com/pserb">View me on GitHub</a></h1>
         <Block title="FTC Robotics">
-          <div className={pg.positiontitle}>Vice President, Head of Software Engineering: Stuy Fission 310</div>
+          <div className={pg.positiontitle}>Vice President, Head of Software Engineering, Driver: Stuy Fission 310</div>
           <br></br>
           Organized code repository and implemented modern techniques to enable more complex robot mechanisms. Led mentor-student relations, sponsors, and community outreach.
           <br></br>
@@ -90,7 +90,7 @@ export default function Home() {
           Assisted students with homework problems and class lessons from intro level to AP level. The CS Dojo is a welcoming and informal environment where CS students can work on problems, recieve help, and discuss topics.
           <br></br>
           <br></br>
-          <Button label="About the Dojo" link="https://www.stuyspec.com/features/decoding-the-cs-dojo" large="y"></Button>
+          <Button label="About the Dojo" link="https://www.stuyspec.com/article/decoding-the-cs-dojo" large="y"></Button>
         </Block>
 
         <Block title="Web Development">
