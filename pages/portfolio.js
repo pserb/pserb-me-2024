@@ -45,7 +45,7 @@ export default function Home() {
                 <h2 className={block.sectiontitle}>Power Play Season</h2>
                 <br></br>
                 <div className={pg.positiontitle}>2022-2023 FTC robotics</div>
-                <p><span className={pg.bold}>World class.</span> Our best robot yet, designed with simplicity and reliability in mind.<span className={pg.bold}> Maximum scoring </span>autonomous program with live error correcting pathfinding. Robust manual controls with <span className={pg.bold}>automation</span>, making it our easiest robot ever to drive. Running on our custom <span className={pg.bold}>purpose built</span> Java code library, open and free for any team to use.</p>
+                <p><span className={pg.bold}>World class.</span> Our best robot yet, designed with simplicity and reliability in mind.<span className={pg.bold}> Maximum scoring </span>autonomous program with real-time error correcting pathfinding. Robust manual controls with <span className={pg.bold}>automation</span>, making it our easiest robot ever to drive. Running on our custom <span className={pg.bold}>purpose built</span> Java code library, open and free for any team to use.</p>
                 {/* vertical thingy like pple here */}
                 <div className={pg.statcontainer}>
                   <span className={pg.statword}>Ranked</span>
