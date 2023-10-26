@@ -1,7 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import home from '../styles/Home.module.scss'
 import Link from 'next/link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function Home() {
   return (
@@ -14,6 +16,11 @@ export default function Home() {
       <main className={home.main}>
         <div className={home.titlecontainer}>
           <h1 className={home.title}><span className={home.subtitle}>personal homepage</span>Paul Serbanescu</h1>
+          <div className={home.iconwrapper}>
+            <a href='https://github.com/pserb' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={home.icon} icon={faGithub} /></a>
+            <a href='https://linkedin.com/in/pserb' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={home.icon} icon={faLinkedin} /></a>
+            <a href='mailto: paulserbanescu3@gmail.com' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={home.icon} icon={faEnvelope} /></a>
+          </div>
           <span className={home.caret}>&#8964;</span>
         </div>
 
