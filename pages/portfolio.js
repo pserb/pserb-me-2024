@@ -70,7 +70,7 @@ export default function Home() {
         </Block>
 
         <Block title="Stuy Schedule App">
-          <div className={pg.positiontitle}>Creator, Over 2,400 downloads!</div>
+          <div className={pg.positiontitle}>Creator, Over 3,200 downloads!</div>
           <br></br>
           An iOS app which helps Stuyvesant students get on track by displaying current school announcements, events, and the bell schedule so they&apos;ll always know when class starts. Features the newest iOS features and widgets.
           <br></br>
@@ -80,14 +80,39 @@ export default function Home() {
           <Button label="GitHub" link="https://github.com/pserb/stuy-schedule" medium="y"></Button>
           &nbsp;
           <Button label="App Support" link="/appsupport" medium="y"></Button>
-        </Block>
 
-        {/* <img width="300" src="/img/stats.png"></img> */}
+          <div className={pg.statblock}>
+            <div className={pg.item}>
+              <div className={pg.imgwrapper}>
+                  <img src="/img/app-page-portrait.png" style={{padding: "1.5em"}}></img>
+              </div>
+            </div>
+            <div className={pg.imgdivider}></div>
+            <div className={pg.item}>
+              <div className={pg.textwrapper}>
+                <h2 className={block.sectiontitle}>School Utility</h2>
+                <br></br>
+                <div className={pg.positiontitle}>Built entirely with Swift</div>
+                <p>Used by thousands of Stuyvesant High School students daily. A modern and convienent way to stay up-to-date on all things Stuy! <span className={pg.bold}>Web-based API</span> to serve updated information and make quick changes if necessary.</p>
+                <div className={pg.statcontainer}>
+                  <span className={pg.statword}>Upwards of</span>
+                  <span className={pg.statnumber}>3200</span>
+                  <span className={pg.statword}>Downloads</span>
+                </div>
+                <div className={pg.statcontainer}>
+                  <span className={pg.statword}></span>
+                  <span className={pg.statnumbersm}>1.5M+</span>
+                  <span className={pg.statword}>Monthly API Requests</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Block>
 
         <Block title="CS Dojo">
           <div className={pg.positiontitle}>Senpai (Tutor)</div>
           <br></br>
-          Assisted students with homework problems and class lessons from intro level to AP level. The CS Dojo is a welcoming and informal environment where CS students can work on problems, recieve help, and discuss topics.
+          Assisted students with homework problems and class lessons from intro level to college level. The CS Dojo is a welcoming and informal environment where CS students can work on problems, recieve help, and discuss topics.
           <br></br>
           <br></br>
           <Button label="About the Dojo" link="https://www.stuyspec.com/article/decoding-the-cs-dojo" large="y"></Button>

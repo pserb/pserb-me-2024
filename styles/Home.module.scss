@@ -13,6 +13,16 @@
         font-family: var(--font-lexend);
         font-size: 6rem;
       }
+      .iconwrapper {
+        .icon {
+          color: var(--text-color);
+          width: 3.2em;
+          padding-bottom: 2em;
+        }
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+      }
       .caret {
         color: var(--sub-color);
         font-weight: 100;
@@ -115,6 +125,16 @@
         }
         .title {
           font-size: 3.8rem;
+        }
+        .iconwrapper {
+          .icon {
+            color: var(--text-color);
+            width: 2.2em;
+            padding-bottom: 1em;
+          }
+          display: flex;
+          width: 60%;
+          justify-content: space-around;
         }
         padding-top: 16rem;
       }
