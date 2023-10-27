@@ -77,6 +77,29 @@
       align-items: center;
     }
     .text {
+      .stacktitle {
+        h3 {
+          align-self: flex-end;
+          padding: 0;
+          margin-top: -1rem;
+          color: var(--sub-color);
+          font-size: 0.75em;
+        }
+        h2 {
+          align-self: flex-start;
+          padding: 0;
+          color: var(--sub-color);
+          font-size: 1em;
+        }
+        h1 {
+          padding: 0;
+          margin-top: -0.8rem;
+          font-size: 2em;
+        }
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+      }
       .button {
         cursor: pointer;
         background-color: var(--background-color);
@@ -94,7 +117,12 @@
       .button:hover {
         background-color: var(--button-color);
       }
+      p {
+        max-width: 80%;
+      }
       color: var(--text-color);
+      font-family: var(--font-space-mono);
+      font-weight: 700;
       text-align: center;
       line-height: 2rem;
       font-size: 1.2rem;
@@ -137,6 +165,23 @@
           justify-content: space-around;
         }
         padding-top: 16rem;
+      }
+      .text {
+        .stacktitle {
+          h1 {
+            font-size: 1.3em;
+          }
+          h2 {
+            font-size: 0.8em;
+          }
+          h3 {
+            font-size: 0.6em;
+          }
+        }
+        p {
+          max-width: 100%;
+        }
+        max-width: 100%;
       }
       line-height: 3.5rem;
     }
