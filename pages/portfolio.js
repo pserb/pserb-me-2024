@@ -96,7 +96,7 @@ export default function Home() {
                 <p>Used by thousands of Stuyvesant High School students daily. A modern and convienent way to stay up-to-date on all things Stuy! <span className={pg.bold}>Web-based API</span> to serve updated information and make quick changes if necessary.</p>
                 <div className={pg.statcontainer}>
                   <span className={pg.statword}>Upwards of</span>
-                  <span className={pg.statnumber}>3200</span>
+                  <span className={pg.statnumbersm}>3200</span>
                   <span className={pg.statword}>Downloads</span>
                 </div>
                 <div className={pg.statcontainer}>
