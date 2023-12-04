@@ -36,7 +36,7 @@ export default function Home() {
           <div className={pg.statblock}>
             <div className={pg.item}>
               <div className={pg.imgwrapper}>
-                <img src="/img/robot.png"></img>
+                <img src="/img/robot.png" alt='2022 robot'></img>
               </div>
             </div>
             <div className={pg.imgdivider}></div>
@@ -66,7 +66,7 @@ export default function Home() {
 
           <h1 className={pg.quote}>Form follows function.<br></br>Optimized for our needs.</h1>
           <br></br>
-          <a href="https://github.com/Fission310/FissionLib" target="_blank" rel="noopener noreferrer"><img className={block.fullwidth} src="/img/macbook.png"></img></a>
+          <a href="https://github.com/Fission310/FissionLib" target="_blank" rel="noopener noreferrer"><img className={block.fullwidth} alt='fissionlib github page' src="/img/macbook.png"></img></a>
         </Block>
 
         <Block title="Stuy Schedule App">
@@ -84,7 +84,7 @@ export default function Home() {
           <div className={pg.statblock}>
             <div className={pg.item}>
               <div className={pg.imgwrapper}>
-                  <img src="/img/app-page-portrait.png" style={{padding: "1.5em"}}></img>
+                  <img src="/img/app-page-portrait.png" alt='app page' style={{padding: "1.5em"}}></img>
               </div>
             </div>
             <div className={pg.imgdivider}></div>
