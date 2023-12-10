@@ -31,7 +31,7 @@ export default function Home() {
 
           <br></br>
           <br></br>
-          
+
           {/* something to wrap this picture in a box like pple */}
           <div className={pg.statblock}>
             <div className={pg.item}>
@@ -101,7 +101,7 @@ export default function Home() {
                 </div>
                 <div className={pg.statcontainer}>
                   <span className={pg.statword}></span>
-                  <span className={pg.statnumbersm}>1.5M+</span>
+                  <span className={pg.statnumbersm}>2M+</span>
                   <span className={pg.statword}>Monthly API Requests</span>
                 </div>
               </div>
@@ -122,8 +122,8 @@ export default function Home() {
           <div className={pg.positiontitle}>UI/UX using React and Next.js</div>
           <br></br>
           Developed numerous websites for student government, clubs, and personal use. Used modern techniques and simplistic design to create easy-to-use, mobile-compatible, and functional sites. Of course, including this site.
-          <br></br> 
-          <br></br> 
+          <br></br>
+          <br></br>
           <Button label="Stuy Model UN" link="https://www.stuymun.org/" medium="y"></Button>
           &nbsp;
           <Button label="Fission 310" link="https://fission310.com/" medium="y"></Button>
@@ -145,7 +145,7 @@ export default function Home() {
           <br></br>
           <Button label="Gallery" link="/gallery/" medium="y"></Button>
         </Block>
- 
+
       </main>
 
     </div>
