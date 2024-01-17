@@ -3,6 +3,8 @@ import pg from "../styles/Page.module.scss"
 import gallery from "../styles/Gallery.module.scss"
 import Title from '../components/Title'
 
+import Image from 'next/image'
+
 export default function Gallery() {
 
     var imgIndex = 0
@@ -33,19 +35,33 @@ export default function Gallery() {
                 <Title title="Gallery" subtitle="blender"></Title>
 
                 <div className={gallery.flexcontainer}>
-                    <img src="/img/duck-light.png"></img>
+
+                    <span className={gallery.image}><Image src="/img/duck-light.png" layout='fill' /></span>
+                    <span className={gallery.image}><Image src="/img/duck-dark.png" layout='fill' /></span>
+
+                    <span className={gallery.image}><Image src="/img/bunny-light.png" layout='fill' /></span>
+                    <span className={gallery.image}><Image src="/img/bunny-dark.png" layout='fill' /></span>
+
+                    <span className={gallery.image}><Image src="/img/hand-light.png" layout='fill' /></span>
+                    <span className={gallery.image}><Image src="/img/hand-dark.png" layout='fill' /></span>
+
+
+
+                    {/* <img src="/img/duck-light.png"></img>
                     <img src="/img/duck-dark.png"></img>
 
                     <img src="/img/bunny-light.png"></img>
                     <img src="/img/bunny-dark.png"></img>
 
                     <img src="/img/hand-light.png"></img>
-                    <img src="/img/hand-dark.png"></img>
+                    <img src="/img/hand-dark.png"></img> */}
                 </div>
                 
                 <div className={gallery.lscontainer}>
-                    <img src="/img/dragonrock.png"></img>
-                    <img src="/img/robot-redblue.png"></img>
+                    <span className={gallery.lsimage}><Image src="/img/dragonrock.png" layout='fill' /></span>
+                    <span className={gallery.lsimage}><Image src="/img/robot-redblue.png" layout='fill' /></span>
+                    {/* <img src="/img/dragonrock.png"></img>
+                    <img src="/img/robot-redblue.png"></img> */}
                 </div>
 
             </main>

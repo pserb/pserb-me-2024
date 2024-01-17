@@ -1,22 +1,33 @@
 .lscontainer {
-    img {
-        width: 100%;
-        height: auto;
+    .lsimage {
+        object-fit: cover;
+        width: 1160px;
+        aspect-ratio: 16/9;
+        // padding-inline: 1em;
+        // padding-block: 1.5em;
 
-        padding-inline: 1em;
-        padding-block: 1.5em;
+        position: relative;
     }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
     width: 70%;
+
+    padding: 0;
     margin: auto;
 }
 .flexcontainer {
-    img {
-        // width: 300px;
-        width: 50%;
+    .image {
+        object-fit: cover;
+        width: 580px;
+        aspect-ratio: 9 / 16;
         box-sizing: border-box;
 
         padding-inline: 1em;
         padding-block: 1.5em;
+        
+        position: relative;
     }
 
     display: flex;
@@ -31,9 +42,25 @@
 
 @media (max-width: 1000px) {
     .lscontainer {
+        .lsimage {
+            width: 580px;
+            aspect-ratio: 16/9;
+        }
         width: 95%;
     }
     .flexcontainer {
+        .image {
+            width: 290px;
+            aspect-ratio: 9 / 16;
+        }
         width: 95%;
+    }
+}
+
+@media (max-width: 600px) {
+    .flexcontainer {
+        .image {
+            width: 180px;
+        }
     }
 }
