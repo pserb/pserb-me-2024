@@ -37,3 +37,23 @@
     align-items: center;
     flex: 1;
 }
+
+@media only screen and (max-width: 1000px) {
+  .content {
+    .fullwidth {
+      width: 110%;
+      margin-left: -5%;
+      display: block;
+    }
+    .section {
+      .sectiontitle {
+        font-size: 1.75rem;
+      }
+      .sectioncontent {
+        font-size: 1em;
+      }
+      width: 90vw;
+      padding-block: 3rem;
+    }
+  }
+}

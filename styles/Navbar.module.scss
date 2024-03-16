@@ -58,3 +58,29 @@
         z-index: 1;
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    .nav {
+        .title {
+            padding-top: 1.9rem;
+            font-size: 1.2rem;
+        }
+        .subtitle {
+            top: 1.1rem;
+            left: 1.6rem;
+            font-size: 0.7rem;
+        }
+        .titledesc {
+            padding-top: 3.4rem;
+        }
+        .linkcontainer {
+            .spacer {
+                padding-inline: 0.2em;
+            }
+        }
+        width: 100%;
+        height: 86px;
+        background-color: var(--background-color);
+        z-index: 1;
+    }
+}
