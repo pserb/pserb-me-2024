@@ -123,7 +123,7 @@ export default function handler(req, res) {
                 }
               ]
             },
-            "block": null,
+            "block": "N/A",
             "testing": "Science Testing",
             "announcement": "LAST DAY"
           },
