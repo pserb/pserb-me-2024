@@ -33,7 +33,7 @@ export default function Gallery() {
         <div className={gallery.flexcontainer}>
           <div className={gallery.lscontainer}>
             <span className={gallery.lsvideo}>
-              <video src="/videos/porsche-gt4-rs.mp4" autoPlay loop />
+              <video src="/videos/porsche-gt4-rs.mp4" autoPlay muted loop playsInline />
             </span>
           </div>
 
