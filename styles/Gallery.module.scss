@@ -8,6 +8,18 @@
 
         position: relative;
     }
+    .lsvideo {
+        video {
+            // make sure the video doesnt expand the container
+            width: 100%;
+        }
+        object-fit: cover;
+        width: 1160px;
+        // padding-inline: 1em;
+        // padding-block: 1.5em;
+
+        position: relative;
+    }
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -45,6 +57,12 @@
         .lsimage {
             width: 580px;
             aspect-ratio: 16/9;
+        }
+        .lsvideo {
+            video {
+                width: 100%;
+            }
+            width: 580px;
         }
         width: 95%;
     }
